@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgba(0, 0, 0, 0.96);
+}
+div.search-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+div.search-container > input[type="search"] {
+  height: 2rem;
+  width: 20rem;
+  background: rgb(31, 30, 30);
+}
+::placeholder {
+  color: rgb(180, 174, 174);
+}
+div.search2 {
+  background-color: lavender;
+  height: 0.2rem;
+  width: 20rem;
+}
+button.but1 {
+  color: white;
+  margin-left: 6%;
+  margin-bottom: 2rem;
+  height: 3rem;
+  width: 350px;
+  background-color: rgba(121, 118, 118, 0.46);
+  font-size: 1rem;
+}
+input[value="Tasks"] {
+  color: white;
+  margin-left: 6%;
+  height: 3rem;
+  width: 350px;
+  background-color: rgba(121, 118, 118, 0.46);
+  font-size: 1rem;
+}
+
+div.container {
+  width: 400px;
+  height: 100vh;
+  background: rgb(13, 12, 17);
+  position: relative;
+  padding-top: 4rem;
+}
+button.but2 {
+  text-align: justify;
+  font-size: 1rem;
+  color: rgb(180, 174, 174);
+  position: absolute;
+  right: 13rem;
+  top: 18rem;
+  width: 34rem;
+  height: 2.5rem;
+  background-color: rgba(121, 118, 118, 0.46);
+}
+@media screen and (max-width: 1250px) {
+  button.but2 {
+    text-align: justify;
+    font-size: 1rem;
+    color: rgb(180, 174, 174);
+    position: absolute;
+    right: 13rem;
+    top: 18rem;
+    width: 24rem;
+    height: 2.5rem;
+    background-color: rgba(121, 118, 118, 0.46);
+  }
+}
+@media screen and (max-width: 1000px) {
+  button.but2 {
+    text-align: justify;
+    font-size: 1rem;
+    color: rgb(180, 174, 174);
+    position: absolute;
+    right: 8rem;
+    top: 18rem;
+    width: 18rem;
+    height: 2.5rem;
+    background-color: rgba(121, 118, 118, 0.46);
+  }
+}
+
+@media screen and (max-width: 818px) {
+  button.but2 {
+    text-align: justify;
+    font-size: 1rem;
+    color: rgb(180, 174, 174);
+    position: absolute;
+    right: 5rem;
+    top: 18rem;
+    width: 18rem;
+    height: 2.5rem;
+    background-color: rgba(121, 118, 118, 0.46);
+  }
+  button.but1 {
+    color: white;
+    margin-left: 6%;
+    margin-bottom: 2rem;
+    height: 3rem;
+    width: 300px;
+    background-color: rgba(121, 118, 118, 0.46);
+    font-size: 1rem;
+  }
+  input[value="Tasks"] {
+    color: white;
+    margin-left: 6%;
+    height: 3rem;
+    width: 300px;
+    background-color: rgba(121, 118, 118, 0.46);
+    font-size: 1rem;
+  }
+  div.search-container > input[type="search"] {
+    height: 2rem;
+    width: 220px;
+    background: rgb(31, 30, 30);
+  }
+
+  div.search2 {
+    background-color: lavender;
+    height: 0.2rem;
+    width: 220px;
+  }
+
+  div.container {
+    width: 350px;
+    height: 100vh;
+    background: rgb(13, 12, 17);
+    position: relative;
+  }
+}
+@media screen and (max-width: 722px) {
+  div.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20vh;
+    background: rgb(13, 12, 17);
+  }
+  div.search-container {
+    height: 60px;
+    padding-bottom: 12px;
+  }
+  div.search-container > input[type="search"] {
+    height: 80px;
+    width: 156px;
+    background: rgb(31, 30, 30);
+  }
+  ::placeholder {
+    color: rgb(180, 174, 174);
+  }
+  div.search2 {
+    background-color: lavender;
+    height: 3px;
+    width: 156px;
+  }
+  div.but-create > button {
+    display: flex;
+    margin: 250px 0px 200px 70px;
+    position: sticky;
+  }
+  button.but2 {
+    text-align: justify;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(180, 174, 174);
+    width: 420px;
+    height: 2.5rem;
+    background-color: rgba(121, 118, 118, 0.46);
+  }
+  button.but1 {
+    color: white;
+    height: 3rem;
+    width: 9rem;
+    background-color: rgba(121, 118, 118, 0.46);
+    font-size: 1rem;
+  }
+  input[value="Tasks"] {
+    color: white;
+    margin-left: 6%;
+    height: 3rem;
+    width: 5rem;
+    background-color: rgba(121, 118, 118, 0.46);
+    font-size: 1rem;
+  }
+  div.container {
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 495px) {
+  div.but-create > button {
+    display: flex;
+    margin: 250px 0px 200px 70px;
+  }
+  button.but2 {
+    text-align: justify;
+    font-size: 1rem;
+    color: rgb(180, 174, 174);
+    width: 300px;
+    height: 2.5rem;
+    background-color: rgba(121, 118, 118, 0.46);
+  }
+}
+@media screen and (max-width: 398px) {
+  button.but2 {
+    text-align: justify;
+    font-size: 1rem;
+    color: rgb(180, 174, 174);
+    width: 200px;
+    height: 2.5rem;
+    background-color: rgba(121, 118, 118, 0.46);
+  }
+}
